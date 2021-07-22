@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.9/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.9",
+  "id": "c4ab4110-ea6b-11eb-a022-cba9037d3660",
+  "version": "0.0.1",
+  "packageName": "shawnews",
+  "developer": {
+    "name": "renearreaza",
+    "websiteUrl": "https://shawnews.azurewebsites.net",
+    "privacyUrl": "https://shawnews.azurewebsites.net/privacy.html",
+    "termsOfUseUrl": "https://shawnews.azurewebsites.net/tou.html"
+  },
+  "name": {
+    "short": "ShawNews",
+    "full": "ShawNews"
+  },
+  "description": {
+    "short": "TODO: add short description here",
+    "full": "TODO: add full description here"
+  },
+  "icons": {
+    "outline": "icon-outline.png",
+    "color": "icon-color.png"
+  },
+  "accentColor": "#D85028",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://shawnews.azurewebsites.net/feedTab/config.html?name={loginHint}&tenant={tid}&group={groupId}&theme={theme}",
+      "canUpdateConfiguration": true,
+      "scopes": [
+        "team"
+      ]
+    }
+  ],
+  "staticTabs": [],
+  "bots": [],
+  "connectors": [],
+  "composeExtensions": [],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "shawnews.azurewebsites.net"
+  ],
+  "showLoadingIndicator": false,
+  "webApplicationInfo": {
+    "id": "dd9bc99e-dc4d-499c-80ce-e806f3856532",
+    "resource": "api://shawnews.azurewebsites.net/dd9bc99e-dc4d-499c-80ce-e806f3856532"
+  }
+}
